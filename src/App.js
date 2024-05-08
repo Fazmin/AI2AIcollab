@@ -181,9 +181,9 @@ const ChatApp = () => {
     }, [loading2, streamedResponse2]);
 
     return (
-        <Container maxWidth="xl">
+        <Container maxWidth="x2">
             <Typography variant="h4" align="center" gutterBottom>
-                ConverseAI
+                Generative AI Collaboration
             </Typography>
             <Grid container spacing={2}>
                 <Grid item xs={6}>

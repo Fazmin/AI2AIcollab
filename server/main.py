@@ -49,7 +49,7 @@ async def get_ai_response(
     chat_history.messages.append(Message(role="user", content=message))
 
     response = await client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=[msg.model_dump() for msg in chat_history.messages],
         stream=True,
     )
